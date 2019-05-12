@@ -16,7 +16,7 @@ int diagonal_sum(const matrix& mat) noexcept
     return sum;
 }
 
-void tranpose(matrix& mat)
+void tranpose(matrix& mat) noexcept
 {
     matrix temp = {};
 
