@@ -1,6 +1,8 @@
 #include <array>
 
 #include <iterator>
+#include <algorithm>
+
 #include <iostream>
 
 template<typename T, size_t R, size_t C>
